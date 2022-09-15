@@ -28,14 +28,14 @@
 
 ## Usage
 
-To compile and upload the code to the Arduino enter the following commands.
+To compile and upload the code to the Arduino enter the following commands. Replace `<name>` with either `8-bit-counter-led` or `8-bit-counter-display`.
 
 **NOTE**: The commands below assume you are using an Arduino UNO. Refer to the [docs](https://arduino.github.io/arduino-cli/0.27/getting-started/) for more information.
 
 ```
-$ cd src/                                                                   # Navigate inside the source directory
-$ arduino-cli compile --fqbn arduino:avr:uno score-counter                  # Compile the code
-$ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno score-counter   # Upload the compiled code to the Arduino UNO
+$ cd src/                                                           # Navigate inside the source directory
+$ arduino-cli compile --fqbn arduino:avr:uno <name>                 # Compile the code
+$ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno <name>  # Upload the compiled code to the Arduino UNO
 ```
 
 **NOTE**: don't forget to update the permissions of `/dev/ttyACM0` (`sudo chmod a+rw /dev/ttyACM0`).
