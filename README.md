@@ -2,6 +2,7 @@
    <h1>
       Shift Register 8-Bit Binary Counter
    </h1>
+   <img src="./assets/shift-register-8-bit-binary-counter-leds.gif">
 </div>
 
 ## What you need
