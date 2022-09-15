@@ -48,7 +48,7 @@ $ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno <name>  # Upload the
 
 ### With 7-segment Display
 
-**I'M still building this one.**
+**I'm still building this one.**
 
 ## References
 
