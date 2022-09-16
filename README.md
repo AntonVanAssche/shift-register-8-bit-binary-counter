@@ -51,8 +51,11 @@ $ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno <name>  # Upload the
 
 **I'm still building this one.**
 
+***Well I destroyed my 74HC595 chip. R.I.P. Chip you will be missed***
+
 ## References
 
 - [Bit Shifting](https://www.interviewcake.com/concept/java/bit-shift)
 - [74HC595 Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/15644/PHILIPS/74HC595.html)
+- [7-segment Display Datasheet](https://components101.com/sites/default/files/component_datasheet/7%20Segment%20Display%20Datasheet.pdf)
 
